@@ -33,24 +33,3 @@ console.log(message);
 // mood : happy 
 // "full time" : true 
 // ' */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// const multiply = function (a, b){
-//  return a * b;
-  
-// }
-// const result = multiply(1, 2);
-// console.log(result);
