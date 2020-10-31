@@ -1,56 +1,14 @@
-let message = '';
-const user = {
-  age: 20,
-  hobby: 'html',
-  name: 'Mango',
-  premium: true,
-};
- 
-//Write code under this line  
-user.mood = 'happy';
-user['full time'] = true;
-user.hobby = 'skydiving';
-user.premium = false;
-
-
-const keys = Object.keys(user);
 // Write code under this line
+const getUserNames = users => users.map(({ name }) => name);
 
-const entries = Object.entries(user);
-for (const entry of entries) {
-    const key = entry[0];
-    const value = entry[1];
-    message += `${key}:${value}\n`;
-}
+console.log(getUserNames(users));
 
- 
-console.log(message); 
-// /*
-// 'age : 20 
-// hobby : skydiving 
-// name : Mango 
-// premium : false 
-// mood : happy 
-// "full time" : true 
-// ' */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// const multiply = function (a, b){
-//  return a * b;
-  
-// }
-// const result = multiply(1, 2);
-// console.log(result);
+ [
+  "Moore Hensley",
+  "Sharlene Bush",
+  "Ross Vazquez",
+  "Elma Head",
+  "Carey Barr",
+  "Blackburn Dotson",
+  "Sheree Anthony",
+] 
